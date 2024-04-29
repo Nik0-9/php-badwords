@@ -1,6 +1,7 @@
 <?php
 $stringa = $_GET['stringa'];
 $badWord = $_GET['badWord'];
+
 $stringaCens = str_replace($badWord, '***', $stringa);
 ?>
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ $stringaCens = str_replace($badWord, '***', $stringa);
 </head>
 
 <body>
+    <h1>Bad Words</h1>
     <p>
         Stringa:
         <?php

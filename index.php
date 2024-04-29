@@ -11,7 +11,7 @@ $badWord = '';
     <title>bad Words</title>
 </head>
 <body>
-    <h1>Bad Word</h1>
+    <h1>Bad Words</h1>
     <form action="censura.php" method="GET">
         <label for="stringa">Inserisci una frase:</label>
         <input type="text" name="stringa"> <br>
