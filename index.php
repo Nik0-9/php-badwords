@@ -1,8 +1,3 @@
-<?php
-$stringa = '';
-$badWord = '';
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
